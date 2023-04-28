@@ -1,0 +1,110 @@
+/* DOCUMENTO CSS */
+
+/* RESET CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: helvetica;
+    background-image: url(fundonetfix.webp);
+    
+}
+header {
+    height: 100px;
+    padding-top: 30px;
+    background-color: #00000099;
+}
+header figure{
+    height: 50px;
+    margin-left: 27.2px;
+
+}
+header figure img{
+    height: 100%;
+    
+}
+main{
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    background-color: #00000099;
+}
+main section{
+    width: 500px;
+    height: 600px;
+    background-color: #000000bf;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+main section form {
+    width: 300px;
+    margin: 75px auto;
+}
+main section form input{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 15px 0;
+    background-color: #4c4c4c;
+    color: #ddd;
+    padding: 10px;
+    font-size: 18px;
+}
+main section form h1{
+    color: #fff;
+    font-size: 30px;
+}
+main section form input::placeholder{
+    color: #a4a4a4;
+    font-weight: 400;
+}
+main section form input[type=submit]{
+    background-color: #e50914;
+    color:#fff;
+    font-weight: 16px;
+    margin: 20px 0 10px 0;
+    cursor: pointer;
+}
+main section form input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 0;
+    padding: 0;
+    border: none;
+    border-radius: 2px;
+    accent-color: #e50914;
+}
+.lembrar{
+    color: #b3b3b3;
+    font-size: 14px;
+
+}
+.ajuda{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 14px;
+    margin-left: 40px;
+}
+div{
+    width: 300px;
+    margin: 75px auto;
+    text-align: left;
+    color:#b3b3b3;
+}
+div p{
+    margin: 0;
+    padding: 0;
+}
+.texto2{
+    margin-top: 30px;
+    font-size: 12px;
+}
+div a {
+    text-decoration: none;
+    color:#fff
+}
